@@ -1,6 +1,7 @@
 /* eslint-disable no-alert */
 /* eslint-disable no-console */
 import dom from './dom';
+import { auth } from './auth'
 
 const events = function events() {
   function showFlow(data) {

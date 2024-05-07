@@ -2,6 +2,9 @@ import dom from './js/dom';
 import events from './js/events';
 import autoComplete from './js/search';
 import './style/style.css';
+import { auth } from '../src/js/auth';
+
+auth();
 
 const event = events();
 autoComplete();

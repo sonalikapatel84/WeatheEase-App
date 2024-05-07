@@ -1,4 +1,5 @@
 import helpers from './helpers';
+import { auth } from './auth'
 
 const dom = function dom() {
   function show(value) {
