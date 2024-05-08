@@ -22,7 +22,7 @@ const events = function events() {
 
   async function getSearch(city) {
     try {
-      // const backendUrl = `http://localhost:8080/api/weather?q=${city}`;
+      // const backendUrl = `http://localhost:8080/api/current/weather?city=${city}`;
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=903507f17d707fecd352d38301efba77&units=metric`;
       const response = await fetch(url, { mode: 'cors' });
       const cityData = await response.json();
@@ -41,7 +41,7 @@ const events = function events() {
   async function getForecast() {
     try {
       const value = (document.getElementById('search').value).toLowerCase();
-      // const backendUrl = `http://localhost:8080/api/weather?q=${city}`;
+      // const backendUrl = `http://localhost:8080/api/fourDayForecast?city=${city}`;
       const url = `https://api.openweathermap.org/data/2.5/forecast?q=${value}&units=metric&appid=903507f17d707fecd352d38301efba77`;
       const response = await fetch(url, { mode: 'cors' });
       const cityData = await response.json();
