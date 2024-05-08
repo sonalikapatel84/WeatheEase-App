@@ -6,13 +6,13 @@
 > Built with JavaScript.
 
 Landing Page:
-![screenshot](./assets/screenshot1.png)
+![screenshot](./assets/landing-page.png)
 
 Actual Weather:
-![screenshot](./assets/screenshot2.png)
+![screenshot](./assets/melbourne-au-weather.png)
 
 5-Day Forecast:
-![screenshot](./assets/screenshot3.png)
+![screenshot](./assets/5-day-forecast.png)
 
 
 Additional description about the project and its features.
